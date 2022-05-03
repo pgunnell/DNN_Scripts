@@ -44,6 +44,7 @@ def ae_loss(input_img, output):
     total_loss = reconstruction_loss
     return total_loss
 
+
 from sklearn.decomposition import PCA
 
 def PCA_analysis(input_vector):
